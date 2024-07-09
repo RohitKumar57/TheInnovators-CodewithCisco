@@ -138,20 +138,20 @@ const GroupChatModal = ({ children }) => {
             d="flex"
             justifyContent="center"
           >
-            Create Group Chat
+            Create Category
           </ModalHeader>
           <ModalCloseButton />
           <ModalBody d="flex" flexDir="column" alignItems="center">
             <FormControl>
               <Input
-                placeholder="Chat Name"
+                placeholder="Category Name"
                 mb={3}
                 onChange={(e) => setGroupChatName(e.target.value)}
               />
             </FormControl>
             <FormControl>
               <Input
-                placeholder="Add Users eg: John, Piyush, Jane"
+                placeholder="Add Nodes"
                 mb={1}
                 onChange={(e) => handleSearch(e.target.value)}
               />
